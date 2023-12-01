@@ -1,0 +1,40 @@
+.container-footer{
+    position: relative;
+    background-color: #333;
+}
+.content {
+    margin: 0;
+    font-family: 'Noto Sans Khmer', sans-serif;
+    padding: 10px;
+    color: white;
+    height: 100px;
+}
+.content p{
+    width: 30%;
+    text-wrap: wrap;
+    margin-left: 20px;
+}
+.content h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.pages{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    gap: 20px;
+    font-family: 'Noto Sans Khmer', sans-serif;
+}
+.pages a{
+    color: rgb(255, 255, 255);
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    font-family: 'Noto Sans Khmer', sans-serif;
+}

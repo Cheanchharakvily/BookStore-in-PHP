@@ -1,0 +1,82 @@
+body{
+    background-color: #333;
+    ::-webkit-scrollbar {
+        height: 0;
+        overflow-x: scroll;
+      }
+}
+
+.container-books{
+    height: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+    display: grid;
+    grid-template-columns: 18% auto;
+
+}
+.side-tabs{
+    height: auto;
+    margin-top: 30px;
+    
+}
+.side-tabs h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+.cat-tabs{
+    margin-top: 10px ;
+    color: rgb(255, 255, 255);
+    background-color: rgb(213, 213, 213);
+}
+.cat-tabs li{
+    border: solid 1px rgb(255, 255, 255);
+    padding: 5px;
+    font-size: 13px;
+    font-family: 'Noto Sans Khmer', 'Helvetica Neue';
+}
+
+.main-tabs{
+    margin-left: 30px;
+    padding: 10px 10px 0 10px;
+    margin-top: 30px;
+}
+.main-tabs h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: solid 1px rgb(255, 255, 255);
+    color: white;
+}
+.tabs-row{
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    overflow: auto;
+    height: 553px;
+}
+.books-tabs{
+    margin-top: 20px;
+    height: auto;
+    width: 200px;
+    border: solid 1px rgb(255, 255, 255);
+    background-color: black;
+}
+.books-tabs img{
+    width: 100%;
+    height: auto;
+}
+.books-tabs h1{
+    font-size: 13px;
+    padding: 5px;
+    font-family: 'Noto Sans Khmer';
+    border-bottom: none;
+    text-wrap: wrap;
+    
+}
+.tabs-row a:hover{
+    opacity: none;
+}
